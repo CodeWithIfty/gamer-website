@@ -72,7 +72,34 @@
     .gamer-txt-content h4{
         line-height:normal;
     }
-
+    .instant-play-img{
+        width: 100%;
+    }
+    .instant-play-container{
+        justify-content: center;
+    }
+    .instant-play-content{
+        width: 100%;
+        text-align: center;
+    }
+    .instant-play-container{
+        flex-direction: column;
+    }
+    .anniversarry-img{
+        width: 70%;
+        right: 25px;
+    }
+    .img-badge{
+        width: 40%;
+        top: 200px;
+    }
+    .instant-play-content p{
+        line-height: normal;
+    }
+    .instant-play-content h1{
+        font-size: 40px;
+        line-height: normal;
+    }
   
 }
 
@@ -114,4 +141,33 @@
     .gamer-txt-content h4{
         line-height:normal;
     }
+    .instant-play-img{
+        width: 100%;
+    }
+    .instant-play-container{
+        justify-content: center;
+    }
+    .instant-play-content{
+        width: 100%;
+        text-align: center;
+    }
+    .instant-play-container{
+        flex-direction: column;
+    }
+    .anniversarry-img{
+        width: 70%;
+        right: 25px;
+    }
+    .img-badge{
+        width: 40%;
+        top: 300px;
+    }
+    .instant-play-content p{
+        line-height: normal;
+    }
+    .instant-play-content h1{
+        font-size: 40px;
+        line-height: normal;
+    }
+  
 }
