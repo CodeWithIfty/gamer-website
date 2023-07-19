@@ -121,6 +121,9 @@ nav{
     margin-left: 8%;
     margin-right: 8%;
 }
+.banner-content{
+    width: 50%;
+}
 .banner-content h3{
     color: #0B0223;
     font-size: 48px;
@@ -158,6 +161,9 @@ nav{
 }
 .banner-img-container{
     width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 .banner-img-container img{
    max-width: 100%;
@@ -330,17 +336,26 @@ height: auto;
 /* Instant Play Styles */
 #instantPlay{
     width: 100%;
+    height: 700px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .instant-play-container{
+    width: 100%;
+    height: 100%;
     display: flex;
+    border: 2px solid;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
-    margin: 100px 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .instant-play-content{
-    width: 50%;
+    width: 30%;
     text-align: right;
+    border: 2px solid ;
 }
 .instant-play-content h1{
     font-size: 48px;
@@ -363,14 +378,23 @@ height: auto;
 }
 
 .instant-play-img{
-    width: 50%;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
 }
 .anniversarry-img{
     position: absolute;
-    right: 400px;
+    max-width: 500px;
+    height: auto;
+    border: 3px solid;
 }
 .img-badge{
+    max-width: 200px;
     position: relative;
-    top: 400px;
+    top: 220px;
+    right: 200px;
 
 }

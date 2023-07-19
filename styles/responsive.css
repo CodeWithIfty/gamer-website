@@ -39,6 +39,7 @@
     .banner-content{
         margin-left: 10%;
         margin-right: 10%;
+        width: 100%;
     }
     .banner-content h3{
         font-size: 30px;
@@ -72,6 +73,9 @@
     .gamer-txt-content h4{
         line-height:normal;
     }
+    .games-box-container{
+        justify-content: center;
+    }
     .instant-play-img{
         width: 100%;
     }
@@ -87,11 +91,11 @@
     }
     .anniversarry-img{
         width: 70%;
-        right: 25px;
     }
     .img-badge{
         width: 40%;
-        top: 200px;
+        top: 137px;
+        right: 100px;
     }
     .instant-play-content p{
         line-height: normal;
@@ -107,9 +111,9 @@
 @media screen and (min-width:576px) and (max-width:992px) {
     header{
         height: 100vh;
-        background-position:bottom center;
+        background-position:left center;
         /* background-size: cover; */
-        height:70vh;
+        /* height:70vh; */
     }
     .logo-container{
         margin-left: 5%;
@@ -132,6 +136,9 @@
     #gamerSection{
         height: 450px;
     }
+    .games-box-container{
+        justify-content: center;
+    }
     .gamer-txt-content h2{
         font-size: 40px;
     }
@@ -143,6 +150,7 @@
     }
     .instant-play-img{
         width: 100%;
+       
     }
     .instant-play-container{
         justify-content: center;
@@ -156,11 +164,12 @@
     }
     .anniversarry-img{
         width: 70%;
-        right: 25px;
+        height: auto;
+        margin-top: -150px;
     }
     .img-badge{
         width: 40%;
-        top: 300px;
+        top: 230px;
     }
     .instant-play-content p{
         line-height: normal;
@@ -169,5 +178,16 @@
         font-size: 40px;
         line-height: normal;
     }
-  
+    .banner-content h3{
+        font-size: 40px;
+    }
+    .banner-content h1{
+        font-size: 80px;
+    }
+    .btn{
+        padding: 15px 30px;
+    }
+    #instantPlay{
+        height: 1050px;
+    }
 }
