@@ -337,7 +337,6 @@ height: auto;
 #instantPlay{
     width: 100%;
     height: 700px;
-    border: 2px solid;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -346,7 +345,6 @@ height: auto;
     width: 100%;
     height: 100%;
     display: flex;
-    border: 2px solid;
     justify-content: space-between;
     align-items: center;
     margin-left: 10%;
@@ -355,7 +353,6 @@ height: auto;
 .instant-play-content{
     width: 30%;
     text-align: right;
-    border: 2px solid ;
 }
 .instant-play-content h1{
     font-size: 48px;
@@ -383,13 +380,11 @@ height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 .anniversarry-img{
     position: absolute;
     max-width: 500px;
     height: auto;
-    border: 3px solid;
 }
 .img-badge{
     max-width: 200px;
