@@ -9,6 +9,10 @@
     nav{
         flex-direction: column;
     }
+    .logo-container{
+        justify-content: center;
+        margin: 0;
+    }
     .menu-container{
         flex-direction: column;
     }
@@ -45,14 +49,69 @@
     .btn{
         padding:15px 25px ;
     }
+    #gamerSection{
+        height: 650px;
+    }
+    .gamer-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gamer-img{
+        max-width: 100%;
+    }
+    .gamer-txt-content{
+        max-width: 100%;
+        text-align: center;
+    }
+    .gamer-txt-content h2{
+        font-size: 40px;
+    }
+    .gamer-desc{
+        font-size: 15px;
+    }
+    .gamer-txt-content h4{
+        line-height:normal;
+    }
+
+  
 }
 
 /* For Tablet Devices */
 @media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        height: 100vh;
+        background-position:bottom center;
+        /* background-size: cover; */
+        height:70vh;
+    }
     .logo-container{
         margin-left: 5%;
     }
     .menu-container{
         margin-right: 5%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo-container{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .menu-container{
+        margin: 5px 0;
+    }
+    #gamerSection{
+        height: 450px;
+    }
+    .gamer-txt-content h2{
+        font-size: 40px;
+    }
+    .gamer-desc{
+        font-size: 15px;
+    }
+    .gamer-txt-content h4{
+        line-height:normal;
     }
 }
