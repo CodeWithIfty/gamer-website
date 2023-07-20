@@ -195,6 +195,11 @@
         width: 100%;
         text-align: center;
     }
+    .second-instant-play-content{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
     .instant-play-container{
         flex-direction: column;
     }
