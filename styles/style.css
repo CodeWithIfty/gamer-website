@@ -354,20 +354,24 @@ height: auto;
     width: 30%;
     text-align: right;
 }
-.instant-play-content h1{
+.second-instant-play-content{
+    width: 30%;
+    text-align: left;
+}
+.instant-play-title{
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px; 
 }
-.instant-play-content p{
+.instant-play-desc{
     color: var(--deep-purple);
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
 }
-.instant-play-container h1 span{
+.instant-play-title span{
     background: var(--linear);
     background-clip: text;
     -webkit-background-clip: text;
